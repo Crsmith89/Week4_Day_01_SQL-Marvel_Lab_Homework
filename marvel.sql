@@ -62,6 +62,7 @@ SELECT name FROM people;
 UPDATE people 
 SET name = 'Krusty the Clown' 
 WHERE name = 'Crusty the Clown';
+SELECT * FROM people; 
 
 -- -- -- Question 4 
 SELECT name FROM people
@@ -70,11 +71,12 @@ WHERE name = 'Homer Simpson';
 -- -- -- -- Question 5
 DELETE FROM movies
 WHERE title = 'Batman Begins';
-
+SELECT * FROM movies; 
 
 -- -- Question 6
 INSERT INTO people (name) 
 VALUES ('Bart Simpson');
+SELECT * FROM people; 
 
 -- Question  7
 DELETE FROM people 
@@ -83,6 +85,7 @@ WHERE name = 'Eric cartman';
 -- Question 8
 INSERT INTO movies (title,year,show_time) 
 VALUES ('Avengers: Infinity War', 2018, '00:00')
+SELECT * FROM movies; 
 
 -- Question 9
 UPDATE movies
